@@ -1,0 +1,223 @@
+/* The CSS code provided is styling the appearance of various elements in a web page. */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+body,
+html {
+  background-color: #EBECF0;
+}
+
+body,
+p,
+input,
+select,
+textarea,
+button {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+}
+
+div,
+p {
+  color: black;
+  text-shadow: 1px 1px 1px #FFF;
+}
+
+form {
+  padding: 8px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.segment {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.fieldLabel {
+  color: black;
+  font-weight: bold;
+}
+
+.fieldGroup {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fieldGroup input[type="radio"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.customBtn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.customBtn input[type="submit"] {
+  font-size: 18px;
+  width: 50%;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+  display: block;
+}
+
+.customBtn input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: white;
+}
+
+.fieldGroup input[type="radio"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+button,
+input,
+textarea,
+select {
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+  border-radius: 10px;
+  padding: 16px;
+  background-color: #EBECF0;
+  text-shadow: 1px 1px 0 #FFF;
+  margin-bottom: 5px;
+}
+
+label {
+  display: block;
+  width: 100%;
+}
+
+.fieldLabel,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-weight: bold;
+}
+
+input,
+textarea,
+select {
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input:focus {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+button {
+  color: #61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover {
+  box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+
+button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+button .icon {
+  margin-right: 8px;
+}
+
+button.unit {
+  border-radius: 8px;
+  line-height: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 19.2px;
+}
+
+button.unit .icon {
+  margin-right: 0;
+}
+
+button.red {
+  display: block;
+  width: 100%;
+  color: #AE1100;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.input-group label {
+  margin-bottom: 10px;
+  flex: 1;
+}
+
+.formBox {
+  border: solid 3px black;
+  width: 50px;
+  height: 50px;
+  background-color: #007bff;
+}
+
+.delete-comment-button {
+  border: none;
+  background: none;
+  color: black; 
+  font-size: 16px; 
+  cursor: pointer;
+  padding: 0;
+  width: 0px;
+  height: 0px;
+}

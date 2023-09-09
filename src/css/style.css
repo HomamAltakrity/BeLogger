@@ -1,0 +1,173 @@
+/* The CSS code provided is a set of styles for various elements in a web page. Here is a breakdown of
+what each section does: */
+body {
+    display: block;
+}
+
+.user-image {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-top: 8px;
+}
+
+.layoutFix {
+    width: 100%;
+    height: 100px;
+    background-color: #EBECF0;
+}
+
+.layoutFixH {
+    width: 100%;
+    height: 70px;
+    background-color: #EBECF0;
+}
+
+.footerCustom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.headerCustom {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.modal-header .modal-close-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+}
+
+.modal-header {
+    padding: 4px;
+}
+
+.post {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    margin-right: 10px;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.publish-date {
+    font-size: 1rem;
+}
+
+/*  */
+
+
+.delete-icon {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.post-content p {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.post-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.post-image img {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1200px) {
+    .post-image img {
+        width: 100%;
+        height: 315px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .post-image img {
+        width: 100%;
+        height: 315px;
+    }
+}
+
+.edit-post-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.edit-icon {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    margin-right: 10px;
+}
+
+.comment-form {
+    width: 100%;
+
+}
+
+.comment-input-container {
+    display: flex;
+    width: 100%;
+}
+
+.comment-input {
+    flex: 1;
+    padding: 10px;
+}
+
+.comment-button {
+    width: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.commentForm {
+    margin: 0;
+}
