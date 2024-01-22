@@ -1,6 +1,4 @@
 # BeLogger
-Sure, here's a sample GitHub repository description for your web application:
-
 ---
 
 **Web Application: User Registration, Posts, and Comments with Admin Panel**
